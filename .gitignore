@@ -1,5 +1,8 @@
 # ignore tmp files
 *.tmp
-# ignore directories __pycache__ and .pytest_cache
+# ignore directories __pycache__, .pytest_cache, and htmlcov
 __pycache__/
 .pytest_cache/
+htmlcov/
+# ignore .coverage
+.coverage
