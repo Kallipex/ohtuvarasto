@@ -6,3 +6,5 @@ __pycache__/
 htmlcov/
 # ignore .coverage
 .coverage
+# DO NOT ignore .venv directory
+!.venv/
