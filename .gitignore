@@ -1,3 +1,5 @@
+# ignore .venv dir
+.venv/
 # ignore tmp files
 *.tmp
 # ignore directories __pycache__, .pytest_cache, and htmlcov
