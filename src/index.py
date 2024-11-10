@@ -39,8 +39,8 @@ def toka(varasto1:Varasto, varasto2:Varasto):
 def main():
     mehua, olutta = Varasto(100.0), Varasto(100.0, 20.2)
 
+    # Hyödynnetään apufunktioita, ettei max-statements ylity.
     eka(mehua, olutta)
-
     toka(mehua, olutta)
 
     print(f"Olutvarasto: {olutta}")
