@@ -1,7 +1,7 @@
 from varasto import Varasto
 
 def eka(varasto1:Varasto, varasto2:Varasto):
-    print("Luonnin jälkeen: Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.")
+    print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {varasto1}")
     print(f"Olutvarasto: {varasto2}")
 
